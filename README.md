@@ -8,7 +8,7 @@ Ctrl+V
 ### Сохранить:
 Ctrl+S
 ### Вырезать:
-Ctrl+x
+Ctrl+X
 ### Отменить:
 Ctrl+Z
 
