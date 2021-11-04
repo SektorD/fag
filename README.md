@@ -29,7 +29,8 @@ git commid -m "..."
 ```bash
 git push
 ```
-### Принять изменение из облока:
+
+### Принять изменение из облaка:
 ```bash
 git pull
 ```
@@ -38,3 +39,15 @@ git pull
 [git-scm.com](https://git-scm.com)
 ### VS code:
 [code.visualstudio.com](https://code.visualstudio.com/)
+### SublimeText 3
+[sublimetext.com](https://www.sublimetext.com/3)
+### htmlbook
+[htmlbook.ru](http://htmlbook.ru/)
+
+# Технологии:
+### БЭМ методология:
+[bem.info](https://ru.bem.info/methodology/)
+
+# Ресурсы:
+### Шрифты:
+[fonts.google](https://fonts.google.com/)
