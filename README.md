@@ -29,7 +29,10 @@ git commid -m "..."
 ```bash
 git push
 ```
-
+### Принять изменение из облока:
+```bash
+git pull
+```
 # Ссылки:
 ### Git:
 [git-scm.com](https://git-scm.com)
