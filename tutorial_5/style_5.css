@@ -15,7 +15,8 @@ body {
 .container {
     position: relative;
     width: 100%;
-    transform: rotate(30deg);
+    transform: rotate(0deg);
+    transition: transform ease-in-out .25s;
 }
 
 .box {
@@ -40,7 +41,7 @@ body {
     position: relative;
     width: 200px;
     height: 200px;
-    background-color: #34fa34;
+    background-color: rgb(73, 241, 79);
     box-shadow: 0 0 5px rgb(73, 241, 79),
     0 0 25px rgb(106, 245, 88),
     0 0 50px rgb(95, 207, 64),
@@ -49,6 +50,8 @@ body {
     0 0 200px rgb(71, 122, 41);
     animation: animet 1.5s ease-in-out infinite;
     transform-origin: bottom right;
+    cursor: pointer;
+    transition: background-color ease-in-out .25s, box-shadow ease-in-out .25s;
 }
 @keyframes animet {
     0% {
