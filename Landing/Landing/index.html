@@ -120,7 +120,31 @@
                 <div class="Section__title">
                     Таблица
                 </div>
-                ...
+                <div class="Section__content">
+                    <div class="Content__table">
+                        <table class="Table">
+                            <thead>
+                                <tr class="Table__tr">
+                                    <th class="Table__th">Заголовок 1</th>
+                                    <th class="Table__th" colspan="2">Заголовок 2</th>
+                                </tr>
+
+                            </thead>
+                            <tbody>
+                                <tr class="Table__tr">
+                                    <td class="Table__th">Информация 1</td>
+                                    <td class="Table__th">Информация 2</td>
+                                    <td class="Table__th">Информация 3</td>
+                                </tr>
+                                <tr class="Table__tr">
+                                    <td class="Table__th">Информация 1</td>
+                                    <td class="Table__th">Информация 2</td>
+                                    <td class="Table__th">Информация 3</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="Landing__section">
@@ -128,7 +152,11 @@
                 <div class="Section__title">
                     Форма
                 </div>
-                ...
+                <form class="Content__form">
+                    <input class="Form__input" type="text" placeholder="Поле 1"/>
+                    <input class="Form__input" type="text" placeholder="Поле 2"/>
+                    <button class="Button__form">Кнопка</button>
+                </form>
             </div>
         </div>
         <div class="Landing__section">
@@ -136,32 +164,20 @@
                 <div class="Section__title">
                     Карта
                 </div>
-                <div class="Section__content">
-                    <div class="Content__karta">
-                        <div class="Karta__element">
-                            <div class="Karta__text">
-                                <div class="Karta__title">
-                                    Телефон
-                                </div>
-                                <div class="Karta__info">
-                                    +7 (999) 123-45-67
-                                </div>
-                            </div>
-                            <div class="Karta__text">
-                                <div class="Karta__title">
-                                    Адрес
-                                </div>
-                                <div class="Karta__info">
-                                    Город, Улица 1 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="Karta__element">
-                            <div class="Karta__img">
-                                <img src="./images/images/background_map.png">
-                            </div>
-                        </div>
+                <div class="main__karta">
+                <div class="Content__karta">
+                    <div class="telephone">
+                        <div class="telephone__title"><b>Телефон</b></div>
+                        <div class="number">+7 (999) 123-45-67</div>
                     </div>
+                    <div class="adress">
+                        <div class="adress__title"><b>Адрес</b></div>
+                        <div class="adress__adres">Город, Улица 1</div>
+                    </div>
+                </div>
+                <div class="Karta__img">
+                    <img src="./images/images/background_map.png" alt="">
+                </div>
                 </div>
             </div>
         </div>
