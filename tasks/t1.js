@@ -1,18 +1,15 @@
+function getResult(s) {
+ return s[0].toUpperCase() + s.substring(1, s.c);
+}
 
-// function getResult(s) {
-//  return s[0].toUpperCase() + s.substring(1, s.lenght);
-// }
-
-// console.log(
-//     getResult('имя'),
-//     '==',
-//     'Имя'
-// );
+console.log(
+    getResult('имя'),'==','Имя'
+);
 
 // function getResult(a) {
 //     var s = 0;
 
-//     for(let i = 0; i < a.lenght; i++) {
+//     for(let i = 0; i < a.length; i++) {
 //         s =s + a[i];
 
 //     }
@@ -27,7 +24,7 @@
 function getResult(a) {
     var a = ['0','1','2','3','4','5',
                 '6','7','8','9'];
-    for (let i = 0; i < a.lenght; i++) {
+    for (let i = 0; i < a.length; i++) {
         s = s.replace(a[i], '!');
     }
 
